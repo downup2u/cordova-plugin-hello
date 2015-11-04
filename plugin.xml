@@ -27,8 +27,8 @@
 
   <platform name="ios">
     <plugins-plist key="Hello" string="HWPHello"/>
-    <header-file src="HWPHello.h"/>
-    <source-file src="HWPHello.m"/>
+    <header-file src="src/ios/HWPHello.h"/>
+    <source-file src="src/ios/HWPHello.m"/>
   </platform>
 
   <platform name="wp7">
