@@ -26,9 +26,11 @@
   </platform>
 
   <platform name="ios">
+   <config-file target="res/xml/config.xml" parent="/*">
       <feature name="Hello">
         <param name="ios-package" value="zcw.xiaheng.net"/>
       </feature>
+	 </config-file>
     <plugins-plist key="Hello" string="HWPHello"/> 
     <header-file src="src/ios/HWPHello.h"/>
     <source-file src="src/ios/HWPHello.m"/>
