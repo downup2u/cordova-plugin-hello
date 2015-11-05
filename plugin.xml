@@ -28,7 +28,7 @@
   <platform name="ios">
       <config-file target="config.xml" parent="/*">
       <feature name="Hello">
-        <param name="ios-package" value="Hello"/>
+        <param name="ios-package" value="HWPHello"/>
       </feature>
     </config-file>
     <plugins-plist key="Hello" string="HWPHello"/> 
