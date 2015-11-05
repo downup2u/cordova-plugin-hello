@@ -11,8 +11,8 @@
 
   <asset src="www/hello.js" target="js/hello.js"/>
 
-  <js-module src="www/hello.js" name="hello">
-    <clobbers target="hello" />
+  <js-module src="www/hello.js" name="Hello">
+    <clobbers target="cordova.plugins.Hello" />
   </js-module>
 
   <platform name="android">
@@ -26,11 +26,6 @@
   </platform>
 
   <platform name="ios">
-   <config-file target="res/xml/config.xml" parent="/*">
-      <feature name="Hello">
-        <param name="ios-package" value="zcw.xiaheng.net"/>
-      </feature>
-	 </config-file>
     <plugins-plist key="Hello" string="HWPHello"/> 
     <header-file src="src/ios/HWPHello.h"/>
     <source-file src="src/ios/HWPHello.m"/>
