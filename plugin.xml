@@ -28,12 +28,11 @@
   <platform name="ios">
       <config-file target="config.xml" parent="/*">
       <feature name="Hello">
-        <param name="ios-package" value="HWPHello"/>
+        <param name="ios-package" value="Hello"/>
       </feature>
     </config-file>
-    <plugins-plist key="Hello" string="HWPHello"/> 
-    <header-file src="src/ios/HWPHello.h"/>
-    <source-file src="src/ios/HWPHello.m"/>
+    <header-file src="src/ios/Hello.h"/>
+    <source-file src="src/ios/Hello.m"/>
   </platform>
 
   <platform name="wp7">
